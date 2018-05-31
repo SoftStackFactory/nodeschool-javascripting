@@ -19,7 +19,7 @@ Run all the steps in the terminal
 3. Create another folder **week-1**
 4. **change the directory** into week-1
 5. Create another folder **javascripting**
-5. Clone then clone this repository into **javascripting** folder
+6. Clone this repository into **javascripting** folder
 ```
 $ git clone https://github.com/SoftStackFactory/nodeschool-javascripting.git
 ```
@@ -55,10 +55,10 @@ https://docs.npmjs.com/getting-started/fixing-npm-permissions
 Open your terminal and run the following command:
 
 ```
-javascripting
+$ javascripting
 ```
 
-You'll see the menu: testing
+You'll see the menu:
 
 ![javascripting screenshot](screenshot.png)
 
@@ -78,12 +78,12 @@ $ touch challenge-1.js
 ```
 To test your code and pass the challenge run in your terminal:
 ```
-javascripting verify.js challenge-1.js
+$ javascripting verify.js challenge-1.js
 ```
 
 
 ### Lesson Flow Review
-**Note** <filename> is a placeholder replace everything with the exact name.
+**Note <filename>** is a placeholder replace everything with the exact name.
 ```
 touch <filename>
 touch challenge-1.js
@@ -102,13 +102,17 @@ $ javascripting verify <filename>
 $ git status
 ```
 Files in red font are changes to files that are not staged and will not be apart of the commit
-4. Let **add* our changes so they will be apart of the commit.
+4. Lets **add* our changes so they will be apart of the commit.
 ```
 $ git commit -m "message about what you did here"
 ```
 5. Now run the javascripting program to select a new lesson:
 ```
 $ javascripting
+```
+6. Create a new file for that lesson.
+```
+$ touch <file-name>
 ```
 
 
