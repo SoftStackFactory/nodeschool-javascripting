@@ -15,7 +15,8 @@ Run all the steps in the terminal
 2. **change the directory** into challenges folder
 3. Create another folder **week-1**
 4. **change the directory** into week-1
-5. Clone then clone this repository
+5. Create another folder **javascripting**
+5. Clone then clone this repository into **javascripting** folder
 ```
 $ git clone https://github.com/SoftStackFactory/nodeschool-javascripting.git
 ```
