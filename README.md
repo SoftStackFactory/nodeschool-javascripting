@@ -18,8 +18,8 @@ Run all the steps in the terminal
 5. Clone then clone this repository
 
 Bash Commands Hint:
-**cd** change directory
-**mkdir** create new folder
+* **cd** change directory
+* **mkdir** create new folder
 
 
 ### Install `javascripting` with `npm`
