@@ -63,6 +63,13 @@ Choose a challenge by hitting enter.
 
 ![first challenge](javascripting.gif)
 
+Create a file when you start a challenge
+Ex: challenge-1.js
+We can use the command **touch** in the terminal to create a file.
+```
+$ touch challenge.js
+```
+
 In the gif I'm using the command line editor `nano` ([here are some basic usage tips for nano](https://github.com/sethvincent/dev-envs-book/blob/master/chapters/05-editors.md#nano)).  
 
 You can use any editor you like. 
