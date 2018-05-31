@@ -9,6 +9,9 @@ Having issues with javascripting? Get help troubleshooting in the [nodeschool di
 
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg)](https://gitter.im/nodeschool/discussions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+## Overview
+The goals of this lesson is to help you becomre more comfortable with cloud9, bash git and basic javascript.
+
 ### Create Directories For Course
 Run all the steps in the terminal
 1. Create a folder named: **challenges** 
@@ -78,21 +81,45 @@ To test your code and pass the challenge run in your terminal:
 javascripting verify.js challenge-1.js
 ```
 
-In the gif I'm using the command line editor `nano` ([here are some basic usage tips for nano](https://github.com/sethvincent/dev-envs-book/blob/master/chapters/05-editors.md#nano)).  
 
-You can use any editor you like. 
+### Lesson Flow Review
+**Note** <filename> is a placeholder replace everything with the exact name.
+```
+touch <filename>
+touch challenge-1.js
+```
+1. Create a new file for the challenge
+File name example: challenge-1, challenge-2
+``` 
+$ touch <filename>
+```
+2. Test your solution with:
+```
+$ javascripting verify <filename>
+```
+3. Now once we have passed the javascripting test we can check the status of our the files that have changed in the terminal run:
+```
+$ git status
+```
+Files in red font are changes to files that are not staged and will not be apart of the commit
+4. Let **add* our changes so they will be apart of the commit.
+```
+$ git commit -m "message about what you did here"
+```
+5. Now run the javascripting program to select a new lesson:
+```
+$ javascripting
+```
 
-[atom](http://atom.io) or [brackets](http://brackets.io/) are both good options.
+
 
 ## Need help with an exercise?
+Ask for help in glip or try the discussion boards below
 
 Open an issue in the nodeschool/discussions repo: https://github.com/nodeschool/discussions
 
 Include the name `javascripting` and the name of the challenge you're working on in the title of the issue.
 
-## Get Involved
-
-Code contributions welcome! Please check our [documentation on contributing](https://github.com/workshopper/javascripting/blob/master/CONTRIBUTING.md) to get started.
 
 
 ## License
