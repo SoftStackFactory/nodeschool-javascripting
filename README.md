@@ -78,7 +78,7 @@ $ touch challenge-1.js
 ```
 To test your code and pass the challenge run in your terminal:
 ```
-$ javascripting verify.js challenge-1.js
+$ javascripting verify challenge-1.js
 ```
 
 
@@ -103,6 +103,17 @@ $ git status
 ```
 Files in red font are changes to files that are not staged and will not be apart of the commit
 4. Lets **add* our changes so they will be apart of the commit.
+```
+$ git add .
+```
+This will add all our files that were changed and are now **staged** or ready to be commited.
+
+5. Lets **commit** all the files we added in the previous step but first it is good practice to see what will be commited buy running:
+```
+$ git status
+ ```
+Now you should see files in green font that will be apart of the commit.
+Now lets **commit** the files with:
 ```
 $ git commit -m "message about what you did here"
 ```
