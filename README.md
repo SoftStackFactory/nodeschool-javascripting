@@ -9,8 +9,28 @@ Having issues with javascripting? Get help troubleshooting in the [nodeschool di
 
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg)](https://gitter.im/nodeschool/discussions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+
+
 ## Overview
-The goals of this lesson is to help you becomre more comfortable with cloud9, bash git and basic javascript.
+The goals of this lesson is to help you become more comfortable with cloud9, bash git and basic javascript.
+
+## Prequisites and Setup
+a github account will be needed to move forward in the course. If you do not already have one you can signup here:
+[Github](https://www.github.com)
+
+Before we start the lesson we need to configure cloud9 to use your git account
+In the terminal run:
+```
+$ git config --global user.name "Mona Lisa"
+```
+**Replace** Mona Lisa with your github name
+
+Second step:
+```
+$ git config --global user.email "email@example.com"
+```
+**Replace**  email@example.com with the github email address on you used for your github account
+
 
 ### Create Directories For Course
 Run all the steps in the terminal
