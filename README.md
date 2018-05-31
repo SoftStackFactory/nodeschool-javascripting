@@ -16,6 +16,9 @@ Run all the steps in the terminal
 3. Create another folder **week-1**
 4. **change the directory** into week-1
 5. Clone then clone this repository
+```
+$ git clone https://github.com/SoftStackFactory/nodeschool-javascripting.git
+```
 
 Bash Commands Hint:
 * **cd** change directory
@@ -67,7 +70,11 @@ Create a file when you start a challenge
 Ex: challenge-1.js
 We can use the command **touch** in the terminal to create a file.
 ```
-$ touch challenge.js
+$ touch challenge-1.js
+```
+To test your code and pass the challenge run in your terminal:
+```
+javascripting verify.js challenge-1.js
 ```
 
 In the gif I'm using the command line editor `nano` ([here are some basic usage tips for nano](https://github.com/sethvincent/dev-envs-book/blob/master/chapters/05-editors.md#nano)).  
